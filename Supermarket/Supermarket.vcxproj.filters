@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dao">
+      <UniqueIdentifier>{79fad921-7575-463d-90eb-8454c74762aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modal">
+      <UniqueIdentifier>{6b40d72d-1aa2-40c2-aa34-47290e5e53b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Supermarket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SupermarketDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="employeeDao.h">
+      <Filter>Dao</Filter>
+    </ClInclude>
+    <ClInclude Include="employee.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="manage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="purchase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="product.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="productDao.h">
+      <Filter>Dao</Filter>
+    </ClInclude>
+    <ClInclude Include="member.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="memberDao.h">
+      <Filter>Dao</Filter>
+    </ClInclude>
+    <ClInclude Include="orderDao.h">
+      <Filter>Dao</Filter>
+    </ClInclude>
+    <ClInclude Include="orderMaster.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="orderDetail.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseMaster.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseDao.h">
+      <Filter>Dao</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseDetail.h">
+      <Filter>Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="employeeManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="saleManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="purchaseManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="productManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Supermarket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SupermarketDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="employeeDao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="employee.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="manage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="purchase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="product.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="productDao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="member.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="memberDao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="orderDao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="orderMaster.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="orderDetail.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="purchaseMaster.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="purchaseDao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="purchaseDetail.cpp">
+      <Filter>Modal</Filter>
+    </ClCompile>
+    <ClCompile Include="saleManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="purchaseManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="productManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="employeeManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Supermarket.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Supermarket.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Supermarket.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
